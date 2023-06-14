@@ -1,13 +1,14 @@
+import java.util.HashMap;
+
 public class cursed{
- 
     public static void main(String[] args){
-        System.out.println(fizzBuzz(1000))
+        List finalList = new ArrayList();
+        finalList = fizzBuzz(100);
+        System.out.println(finalList);
     }
-    import java.util.HashMap;
-    class Solution {
-        public List<String> fizzBuzz(int n) {
-            List myList = new ArrayList();
-            HashMap<Integer, String> fizzy = new HashMap<Integer, String>();
+    public List<String> fizzBuzz(int n) {
+        List myList = new ArrayList();
+        HashMap<Integer, String> fizzy = new HashMap<Integer, String>();
             fizzy.put(1, "1");
             fizzy.put(2, "2");
             fizzy.put(3, "Fizz");
@@ -10201,5 +10202,4 @@ public class cursed{
             }
             return myList;
         }
-    }
 }
