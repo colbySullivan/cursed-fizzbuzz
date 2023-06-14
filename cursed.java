@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 
 public class cursed{
     public static void main(String[] args){
@@ -6,7 +6,7 @@ public class cursed{
         finalList = fizzBuzz(100);
         System.out.println(finalList);
     }
-    public List<String> fizzBuzz(int n) {
+    public static List<String> fizzBuzz(int n) {
         List myList = new ArrayList();
         HashMap<Integer, String> fizzy = new HashMap<Integer, String>();
             fizzy.put(1, "1");
